@@ -11,6 +11,7 @@ class MyDocument extends Document {
 			<Html>
 				<Head />
 				<link rel='stylesheet' href='https://use.typekit.net/oju4hxx.css' />
+				<link rel='stylesheet' href='https://use.typekit.net/quf7okg.css' />
 
 				<body>
 					<Main />

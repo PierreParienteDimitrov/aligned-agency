@@ -1,9 +1,11 @@
 // import styles from '../styles/Home.module.css';
 
+import { Header } from '../components/homepage/Header';
+
 export default function Home() {
 	return (
 		<div>
-			<h1>This is the homepage</h1>
+			<Header />
 		</div>
 	);
 }
