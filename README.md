@@ -1,3 +1,6 @@
+# [Link to the deployed version](https://alignedagency.netlify.app/)
+
+
 # Next.js, Tailwind, Sass and Mailchimp connection boilerplate
 
 This is my boilerplate for any new website that uses the following techologies:
