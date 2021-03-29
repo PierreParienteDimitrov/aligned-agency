@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import ButtonPrimary from '../buttons/ButtonPrimary';
 import Nav from './Nav';
 
 const Layout = ({ children }) => {
@@ -10,6 +11,7 @@ const Layout = ({ children }) => {
 			</Head>
 			{/* <Nav /> */}
 			{children}
+			<ButtonPrimary />
 		</div>
 	);
 };

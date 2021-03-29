@@ -1,0 +1,25 @@
+.cta {
+	font-weight: 400;
+	font-size: 1rem;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+	background: linear-gradient(
+		90deg,
+		#ff0099,
+		#f32eb1,
+		#e247c7,
+		#ce5ada,
+		#b66ae9,
+		#9a78f4,
+		#7a83fc,
+		#548dff
+	);
+
+	h6 {
+		font-weight: 600;
+		font-size: 1rem;
+		text-transform: uppercase;
+		letter-spacing: 0.1rem;
+		color: white;
+	}
+}

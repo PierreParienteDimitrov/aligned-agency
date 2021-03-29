@@ -1,9 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @import './config';
+
+// Global Styles
+* {
+	box-sizing: 0;
+}
 
 body {
 	font-family: $primary-font;
 }
 
+// Text Styles
 h1 {
+	margin: 0;
+	padding: 0;
 	font-family: $secondary-font;
+	font-weight: 600;
+	font-size: 5rem;
+	color: $gray-500;
+}
+
+h4 {
+	margin: 0;
+	padding: 0;
+	font-family: $primary-font;
+	font-weight: 400;
+	font-size: 1rem;
+	text-transform: uppercase;
+	color: $gray-400;
+	letter-spacing: 0.1rem;
+}
+
+h5 {
+	margin: 0;
+	padding: 0;
+	font-family: $primary-font;
+	font-weight: 300;
+	font-size: 2rem;
+	color: $gray-500;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+	font-family: $primary-font;
+	font-weight: 100;
+	font-size: 1.4rem;
+	line-height: 2.4rem;
+	color: $gray-500;
 }
