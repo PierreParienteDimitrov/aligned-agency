@@ -1,8 +1,9 @@
 import React from 'react';
+import Container from '../layouts/Container';
 
 const AboutMe = () => {
 	return (
-		<div className='w-11/12 m-auto md:w-10/12'>
+		<Container>
 			<div className='mb-96'>
 				<h4 className='mb-2'>Aligned Agency</h4>
 				<h5 className='mb-8'>I design and build digital experiences.</h5>
@@ -12,7 +13,7 @@ const AboutMe = () => {
 					worry, I got you. We'll do it together.
 				</p>
 			</div>
-		</div>
+		</Container>
 	);
 };
 
