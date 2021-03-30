@@ -1,0 +1,36 @@
+@import './config';
+
+.carousel {
+	height: 100vh;
+
+	.leftArrow {
+		position: absolute;
+		left: -1rem;
+		top: 50%;
+		font-size: 6rem;
+		color: white;
+		z-index: 1;
+		cursor: pointer;
+	}
+
+	.rightArrow {
+		position: absolute;
+		right: -1rem;
+		top: 50%;
+		font-size: 6rem;
+		color: white;
+		z-index: 1;
+		cursor: pointer;
+	}
+
+	.slide {
+		opacity: 0;
+		transition-duration: 1s ease;
+	}
+
+	.active {
+		opacity: 1;
+		transition-duration: 3s;
+		transform: scale(1.08);
+	}
+}

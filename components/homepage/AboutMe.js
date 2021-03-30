@@ -4,7 +4,7 @@ import Container from '../layouts/Container';
 const AboutMe = () => {
 	return (
 		<Container>
-			<div className='mb-96'>
+			<div className='w-full mb-40 border-l-2 pl-4'>
 				<h4 className='mb-2'>Aligned Agency</h4>
 				<h5 className='mb-8'>I design and build digital experiences.</h5>
 				<p>
