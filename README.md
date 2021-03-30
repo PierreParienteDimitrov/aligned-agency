@@ -1,4 +1,4 @@
-# [Link to the deployed version](https://alignedagency.netlify.app/)
+# [Link to the deployed version](https://www.alignedagency.co)
 
 
 # Next.js, Tailwind, Sass and Mailchimp connection boilerplate
