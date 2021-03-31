@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { CarouselItems } from '../carousel/CarouselItems';
+import { CarouselItems } from '../../content/homepage/CarouselItems';
 import Container from '../layouts/Container';
 import styles from './Tabs.module.scss';
 

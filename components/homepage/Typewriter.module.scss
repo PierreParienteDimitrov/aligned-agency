@@ -5,12 +5,13 @@
 	padding: 0 0 1.4rem 0;
 	font-family: $secondary-font;
 	font-weight: 300;
-	font-size: 4.2rem;
+	font-size: 6rem;
 	color: $gray-600;
-	line-height: 4.3rem;
+	line-height: 6rem;
 
 	li:nth-child(1) {
 		font-style: italic;
+		margin-bottom: 1rem;
 	}
 }
 

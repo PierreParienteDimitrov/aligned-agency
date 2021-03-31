@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import ContainerFluid from '../layouts/ContainerFluid';
-import { CarouselItems } from './CarouselItems';
+import { CarouselItems } from '../../content/homepage/CarouselItems';
 import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
 import styles from './Carousel.module.scss';
 

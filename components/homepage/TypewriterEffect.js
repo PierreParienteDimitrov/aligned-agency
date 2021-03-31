@@ -1,5 +1,5 @@
 import React from 'react';
-import { TypewriterItems } from './TypewriterItems.js';
+import { TypewriterItems } from '../../content/homepage/TypewriterItems.js';
 import Typewriter from 'typewriter-effect';
 import styles from './Typewriter.module.scss';
 

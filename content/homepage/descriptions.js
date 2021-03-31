@@ -2,11 +2,11 @@ export const descriptions = [
 	{
 		headline: `aligned agency`,
 		title: `I design and build digital experiences.`,
-		description: `I will work with you during the whole creative, development and growth phases of your future platform. I know it is a big deal to go online. Don't worry, I got you. We'll do it together.`,
+		description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur`,
 	},
 	{
-		headline: `product design`,
-		title: `Let's start by dreaming and designing your project`,
-		description: `Designing a good user experience is already 90% of the work. I will collaborate with your during the whole process to help you translate your ideas into a digital user flow that is elegant and efficient.`,
+		headline: `dream and design`,
+		title: `Let's turn your ideas into mockups`,
+		description: `Designing a good user experience is already 90% of the work. I will collaborate with your during the whole process to help you translate your ideas into a user flow that is elegant and efficient.`,
 	},
 ];

@@ -4,21 +4,31 @@ import Carousel from '../components/carousel/Carousel';
 import Tabs from '../components/tabs';
 import ContentGroup from '../components/layouts/ContentGroup';
 import { descriptions } from '../content/homepage/descriptions';
+import styles from '../styles/Home.module.scss';
 
 export default function Home() {
 	return (
 		<>
 			{/* Header */}
-			<Container>
-				<header className='grid grid-cols-1 md:grid-cols-2 items-center md:my-36'>
-					<Header />
-					<ContentGroup
-						headline={descriptions[0].headline}
-						title={descriptions[0].title}
-						description={descriptions[0].description}
-					/>
-				</header>
-			</Container>
+			<div className='h-full w-full relative'>
+				<img
+					src='/headerBgLg.png'
+					alt='Aligned Agency Logo Large'
+					className={`absolute top-0 left-0 w-screen h-full object-cover object-right ${styles.zIndex}`}
+				/>
+				<div className='z-50'>
+					<Container>
+						<header className='py-16 grid grid-cols-1 items-center z-10 gap-y-28 md:grid-cols-2 md:py-36'>
+							<Header />
+							<ContentGroup
+								headline={descriptions[0].headline}
+								title={descriptions[0].title}
+								description={descriptions[0].description}
+							/>
+						</header>
+					</Container>
+				</div>
+			</div>
 
 			{/* Carousel */}
 			<Carousel />
