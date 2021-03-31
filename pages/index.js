@@ -1,3 +1,4 @@
+import Container from '../components/layouts/Container';
 import { Header } from '../components/homepage/Header';
 import Carousel from '../components/carousel/Carousel';
 import Tabs from '../components/tabs';
@@ -6,26 +7,30 @@ import { descriptions } from '../content/homepage/descriptions';
 
 export default function Home() {
 	return (
-		<div>
-			<div className='grid grid-cols-1 md:grid-cols-2'>
-				<Header />
-
-				<div className='my-36'>
+		<>
+			{/* Header */}
+			<Container>
+				<header className='grid grid-cols-1 md:grid-cols-2 items-center md:my-36'>
+					<Header />
 					<ContentGroup
 						headline={descriptions[0].headline}
 						title={descriptions[0].title}
 						description={descriptions[0].description}
 					/>
-				</div>
-			</div>
+				</header>
+			</Container>
+
+			{/* Carousel */}
 			<Carousel />
-			<div className='mt-64'>
-				<ContentGroup
-					headline={descriptions[1].headline}
-					title={descriptions[1].title}
-					description={descriptions[1].description}
-				/>
-			</div>
+			<Container>
+				<div className='mt-64 md:w-8/12'>
+					<ContentGroup
+						headline={descriptions[1].headline}
+						title={descriptions[1].title}
+						description={descriptions[1].description}
+					/>
+				</div>
+			</Container>
 			<div className='mt-20 mb-64'>
 				<Tabs>
 					<div label='Research'>
@@ -51,6 +56,6 @@ export default function Home() {
 				</Tabs>
 			</div>
 			{/* <Grid /> */}
-		</div>
+		</>
 	);
 }

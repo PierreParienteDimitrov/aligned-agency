@@ -23,6 +23,12 @@ h1 {
 	color: $gray-500;
 }
 
+@include media-md {
+	h1 {
+		font-size: 8rem;
+	}
+}
+
 h3 {
 	margin: 0;
 	padding: 0;
@@ -32,6 +38,12 @@ h3 {
 	letter-spacing: 0rem;
 	color: $gray-600;
 	text-transform: uppercase;
+}
+
+@include media-md {
+	h3 {
+		font-size: 1.5rem;
+	}
 }
 
 h4 {

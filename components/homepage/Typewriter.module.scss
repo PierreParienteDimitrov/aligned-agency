@@ -9,7 +9,20 @@
 	color: $gray-600;
 	line-height: 4.3rem;
 
-	:nth-child(1) {
-		padding-bottom: 0.4rem;
+	li:nth-child(1) {
+		font-style: italic;
+	}
+}
+
+@include media-md {
+	.typewriter {
+		padding: 0 0 4rem 0;
+		font-size: 7rem;
+		line-height: 7rem;
+
+		li:nth-child(1) {
+			font-style: italic;
+			margin-bottom: 1.8rem;
+		}
 	}
 }
