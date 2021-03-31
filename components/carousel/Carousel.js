@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import ContainerFluid from '../layouts/ContainerFluid';
 import { CarouselItems } from './CarouselItems';
 import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
-import styles from '../../styles/Carousel.module.scss';
+import styles from './Carousel.module.scss';
 
 const Carousel = () => {
 	const [current, setCurrent] = useState(0);

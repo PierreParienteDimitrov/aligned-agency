@@ -1,8 +1,6 @@
-import React from 'react';
-import ButtonPrimary from '../buttons/ButtonPrimary';
 import TypewriterEffect from './TypewriterEffect';
-import styles from '../../styles/Header.module.scss';
 import Container from '../layouts/Container';
+import styles from './Header.module.scss';
 
 export const Header = () => {
 	return (

@@ -1,0 +1,26 @@
+@import '../../styles/config';
+
+.tabs {
+	li {
+		border-radius: 20rem;
+		margin: 0rem 0.5rem 0 0;
+		padding: 0.1rem 1.6rem;
+
+		a {
+			font-size: 1.3rem;
+			color: $gray-400;
+		}
+	}
+
+	.current {
+		background: $gray-200;
+
+		a {
+			color: $gray-900;
+		}
+	}
+}
+
+.tabContent {
+	padding: 0rem 1.6rem;
+}
