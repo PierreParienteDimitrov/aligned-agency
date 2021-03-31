@@ -17,7 +17,7 @@ const Tabs = ({ children }) => {
 		<Container>
 			<div>
 				{/* Tabs  */}
-				<ul className={`flex pb-16 ${styles.tabs}`}>
+				<ul className={`w-full flex overflow-x-scroll mb-10 ${styles.tabs}`}>
 					{children.map((item, index) => {
 						const label = item.props.label;
 
