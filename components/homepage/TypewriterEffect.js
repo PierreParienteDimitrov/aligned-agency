@@ -68,9 +68,6 @@ const TypewriterEffect = () => {
 					/>
 				</li>
 			</ul>
-			<h3>
-				<em>your digital projects</em>
-			</h3>
 		</div>
 	);
 };

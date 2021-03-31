@@ -6,6 +6,8 @@ import styles from './Tabs.module.scss';
 const Tabs = ({ children }) => {
 	const [activeTab, setActiveTab] = useState(children[0].props.label);
 
+	console.log(children[0].props.label);
+
 	const handleClick = (e, newActiveTab) => {
 		e.preventDefault();
 		setActiveTab(newActiveTab);

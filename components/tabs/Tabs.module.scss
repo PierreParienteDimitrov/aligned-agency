@@ -2,7 +2,7 @@
 
 .tabs {
 	li {
-		border-radius: 20rem;
+		border-radius: 0.2rem;
 		margin: 0rem 0.5rem 0 0;
 		padding: 0.1rem 1.6rem;
 
@@ -13,7 +13,7 @@
 	}
 
 	.current {
-		background: $gray-200;
+		background: $gray-100;
 
 		a {
 			color: $gray-900;

@@ -9,6 +9,7 @@ export const Header = () => {
 				<div className={`h-full flex flex-col justify-center`}>
 					<div className='mb-10'>
 						<TypewriterEffect />
+						<h3>Your Digital Projects</h3>
 					</div>
 				</div>
 			</header>
