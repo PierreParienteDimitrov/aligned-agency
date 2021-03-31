@@ -33,11 +33,13 @@ const Carousel = () => {
 
 	const mouseEnter = (e) => {
 		setHover(true);
+		e.stopPropagation();
 		console.log(hover);
 	};
 
 	const mouseLeave = (e) => {
 		setHover(false);
+		e.stopPropagation();
 		console.log(hover);
 	};
 
