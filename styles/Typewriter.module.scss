@@ -2,16 +2,24 @@
 
 .typewriter {
 	margin: 0;
-	padding: 0 0 6rem 0;
+	padding: 0 0 3rem 0;
 	font-family: $secondary-font;
 	font-weight: 300;
-	font-size: 8rem;
+	font-size: 6rem;
 	color: $gray-600;
-	line-height: 8rem;
+	line-height: 7rem;
 
-	li:nth-child(2) {
-		font-style: italic;
-	}
+	// text-transform: capitalize;
+
+	// li:nth-child(2) {
+	// 	position: relative;
+	// 	bottom: 1rem;
+	// }
+
+	// li:nth-child(3) {
+	// 	position: relative;
+	// 	bottom: 3rem;
+	// }
 	// li:nth-child(2) {
 	// 	color: red;
 	// }

@@ -35,7 +35,7 @@ const TypewriterEffect = () => {
 						}}
 						onInit={(typewriter) => {
 							typewriter
-								.pauseFor(400)
+								.pauseFor(100)
 								.typeString(`${TypewriterItems[1].title}`)
 								.pauseFor(500)
 								.deleteAll()
@@ -55,7 +55,7 @@ const TypewriterEffect = () => {
 						}}
 						onInit={(typewriter) => {
 							typewriter
-								.pauseFor(600)
+								.pauseFor(300)
 								.typeString(`${TypewriterItems[2].title}`)
 								.pauseFor(500)
 								.deleteAll()
@@ -68,6 +68,9 @@ const TypewriterEffect = () => {
 					/>
 				</li>
 			</ul>
+			<h3>
+				<em>your digital projects</em>
+			</h3>
 		</div>
 	);
 };

@@ -6,7 +6,7 @@ export const TypewriterItems = [
 	},
 	{
 		title: 'create',
-		skill: 'code',
+		skill: 'build',
 		url: '/developer',
 	},
 	{

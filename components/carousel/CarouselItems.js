@@ -13,7 +13,7 @@ export const CarouselItems = [
 		url: 'https://www.tempso.com/',
 		alt: 'tempso app screenshots',
 		cName: 'nav-links',
-		src: `https://source.unsplash.com/random/1600x900`,
+		src: `https://source.unsplash.com/random/`,
 	},
 	{
 		title: 'project3',
@@ -21,6 +21,6 @@ export const CarouselItems = [
 		url: 'https://www.tempso.com/',
 		alt: 'tempso app screenshots',
 		cName: 'nav-links',
-		src: `https://source.unsplash.com/WLUHO9A_xik/1600x900`,
+		src: `https://source.unsplash.com/WLUHO9A_xik/`,
 	},
 ];

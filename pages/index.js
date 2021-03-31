@@ -2,6 +2,7 @@
 
 import Carousel from '../components/carousel/Carousel';
 import AboutMe from '../components/homepage/AboutMe';
+import DesignSection from '../components/homepage/DesignSection';
 // import Grid from '../components/homepage/Grid';
 import { Header } from '../components/homepage/Header';
 
@@ -13,6 +14,7 @@ export default function Home() {
 				<AboutMe />
 			</div>
 			<Carousel />
+			<DesignSection />
 			{/* <Grid /> */}
 		</div>
 	);

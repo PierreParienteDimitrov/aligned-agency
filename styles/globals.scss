@@ -19,8 +19,17 @@ h1 {
 	padding: 0;
 	font-family: $secondary-font;
 	font-weight: 600;
-	font-size: 5rem;
+	font-size: 4rem;
 	color: $gray-500;
+}
+
+h3 {
+	margin: 0;
+	padding: 0;
+	font-family: $secondary-font;
+	font-weight: 400;
+	font-size: 2rem;
+	color: $gray-600;
 }
 
 h4 {
