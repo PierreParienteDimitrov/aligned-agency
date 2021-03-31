@@ -12,6 +12,10 @@ class MyDocument extends Document {
 				<Head />
 				<link rel='stylesheet' href='https://use.typekit.net/oju4hxx.css' />
 				<link rel='stylesheet' href='https://use.typekit.net/quf7okg.css' />
+				<link
+					rel='stylesheet'
+					href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'
+				/>
 
 				<body>
 					<Main />
