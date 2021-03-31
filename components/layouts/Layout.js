@@ -6,8 +6,8 @@ const Layout = ({ children }) => {
 	return (
 		<div>
 			<Head>
-				<title>Create Next App</title>
-				<link rel='icon' href='/favicon.ico' />
+				<title>Aligned Agency</title>
+				<link rel='icon' href='/favicon.png' />
 			</Head>
 			{/* <Nav /> */}
 			{children}
