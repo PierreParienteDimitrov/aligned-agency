@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import ButtonPrimary from '../buttons/ButtonPrimary';
+import Banner from './Banner';
 import Nav from './Nav';
 
 const Layout = ({ children }) => {
@@ -9,7 +10,7 @@ const Layout = ({ children }) => {
 				<title>Aligned Agency</title>
 				<link rel='icon' href='/favicon.png' />
 			</Head>
-			{/* <Nav /> */}
+			<Banner />
 			{children}
 			<ButtonPrimary />
 		</div>
