@@ -36,7 +36,7 @@ const githubfinder = () => {
 	return (
 		<div className='h-full w-full relative top-20'>
 			<div className='text-center mb-16'>
-				<h3>Github Finder</h3>
+				<h3>Headlines</h3>
 			</div>
 			<Container>
 				<form
