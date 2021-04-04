@@ -6,6 +6,9 @@ module.exports = {
 			backgroundImage: (theme) => ({
 				headerBgLg: "url('/headerBLg.png')",
 			}),
+			zIndex: {
+				'-10': '-10',
+			},
 		},
 	},
 	variants: {
