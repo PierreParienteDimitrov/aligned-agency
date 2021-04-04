@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import axios from 'axios';
+import { getArticles } from '../api/nytimes';
 
 import { FiSearch } from 'react-icons/fi';
 import Container from '../../components/layouts/Container';
@@ -16,21 +16,7 @@ const githubfinder = () => {
 
 	const onSubmit = (e) => {
 		e.preventDefault();
-		getUsers();
-	};
-
-	const getUsers = async (err) => {
-		try {
-			const options = {
-				method: 'GET',
-				url: `https://api.nytimes.com/svc/search/v2/articlesearch.json?q=election&api-key=${process.env.NYT_Key}`,
-			};
-
-			const res = await axios.request(options);
-			console.log(res.data);
-		} catch {
-			if (err) throw err;
-		}
+		getArticles();
 	};
 
 	return (
