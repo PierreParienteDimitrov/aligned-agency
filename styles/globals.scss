@@ -66,7 +66,8 @@ h5 {
 	color: $gray-500;
 }
 
-p {
+p,
+input {
 	margin: 0;
 	padding: 0;
 	font-family: $primary-font;
